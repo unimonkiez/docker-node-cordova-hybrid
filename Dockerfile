@@ -1,4 +1,4 @@
-FROM node:lastest
+FROM node:latest
 MAINTAINER unimonkiez <unimonkiez@gmail.com>
 
 # Install other apt packages
