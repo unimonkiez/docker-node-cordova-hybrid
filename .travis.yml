@@ -4,6 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -t android-nodejs .
-  - docker run android-nodejs /bin/sh -c "android list && node -v && npm -v"
-
+  - docker build -t node-cordova-hybrid .
+  - docker run node-cordova-hybrid /bin/sh -c "android list && node -v && npm -v"
